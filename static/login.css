@@ -1,0 +1,45 @@
+body{
+	background-image: href="backgroud.jpg";
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#login_frame{
+	width: 444px;
+	height: 277px;
+	padding: 5px;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left:-200px;
+	margin-top: -200px;
+
+	background-color: rgba(240,255,255,0.5);
+
+	border-radius: 10px;
+	text-align: center; 
+}
+
+form p > * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#login_control{
+	padding: 0 28px;
+}
+
+
+#sign_up:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+label{
+	 	cursor: pointer;
+        display: inline-block;
+        padding: 3px 6px;
+        text-align: right;
+        width: 150px;
+        vertical-align: top;
+}
